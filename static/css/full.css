@@ -1,0 +1,94 @@
+/*!
+ * Start Bootstrap - Full HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.full {
+    background: url('../img/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#msg_container {
+    width : 50%;
+    height: 100%;
+    margin: auto;
+    background-color: #3949AB; 
+    display: none;
+    border-radius: 10px;
+    overflow: scroll;
+}
+
+#msg_title {
+    position: relative;
+    width: 90%;
+    height: 20%;
+    top   : 15px;
+    margin: auto;
+    background-color: #3949AB; 
+    border-radius: 10px;
+}
+
+#like_tip {
+    position: absolute;
+    background-color: #7986CB; 
+    font-size: 15px;
+    margin: auto;
+    width: 48.9%;
+    height: 5%;
+    text-align: right;
+    color:white;
+}
+
+.comment {
+    position: relative;
+    display : inline-block;
+    background-color: #64B5F6;   
+    top   : 23px;
+    width: 100%;
+    height: 15%;
+    border-bottom: thick dotted #FFFFFF;
+    
+}
+
+.comment_head {
+    position: relative;
+    display: inline-block;   
+    width: 10%;
+    height: 100%;
+    top: 3vh;
+    max-width:100%;
+    max-height:100%;
+}
+
+.comment_content {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    width: 80%;
+    height: 100%;
+    top: 2vh;
+
+}
+.like_count {
+    position: relative;
+    display: inline-block;
+    background-color: #E3F2FD;
+    font-size: 24px;
+    height:  50%;
+    width: 7%;
+    float: right;
+    text-align: center;
+    border-radius: 5px;
+    right: 1vw;
+    top : 3vh;
+}
